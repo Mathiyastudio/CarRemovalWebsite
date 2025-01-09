@@ -1,0 +1,363 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+#header {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.top-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info .phone-icon {
+  font-size: 1.2rem;
+}
+
+.contact-info .phone-number {
+  font-weight: bold;
+}
+
+.chat-btn,
+.sign-in-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-btn {
+  background-color: #f4f4f4;
+}
+
+.sign-in-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #fef7d1;
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-bar a.active {
+  font-weight: 900;
+}
+
+.rating {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#hero p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Highlight Section */
+#highlight {
+  display: flex;
+  padding: 2rem;
+  background-color: #fef7d1;
+}
+
+.highlight-left {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.highlight-right {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.highlight-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlight-right li {
+  margin: 0.5rem 0;
+}
+
+/* Mission Section */
+#mission {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#mission h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#mission p {
+  font-size: 1rem;
+}
+
+/* Steps Section */
+#steps {
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+#steps h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.step h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fbc02d;
+}
+
+.step h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.step p {
+  font-size: 1rem;
+}
+
+/* Our Story Section */
+#story {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+#story h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#story h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.story-gallery {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.story-gallery img {
+  width: 30%;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.story-features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.feature h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  font-size: 1rem;
+}
+
+/* Footer Section */
+#footer {
+  padding: 1rem;
+  background-color: #fef7d1;
+  text-align: center;
+}
+
+#footer button {
+  margin: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+#header {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.top-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chat-btn,
+.sign-in-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-btn {
+  background-color: #f4f4f4;
+}
+
+.sign-in-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: #fef7d1;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+/* Steps Section */
+#steps {
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.steps-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Individual Step Box */
+.step-box {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.step-number {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fbc02d;
+  margin-right: 1.5rem;
+}
+
+.step-content h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.step-content p {
+  font-size: 1rem;
+}
+
+/* Footer */
+#footer {
+  padding: 1rem;
+  background-color: #fef7d1;
+  text-align: center;
+}
+
+
+
+
